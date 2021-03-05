@@ -45,40 +45,10 @@ li {
     list-style-type: none;
 }
 
-#navitsumade:before {
+#navmerchant:before {
     content: "";
     position:absolute;
-    background: azure;
-    width:4vh;
-    height:4vh;
-    left:-1vh;
-    border-radius: 50%;
-    border:2px solid #000000;
-}
-#navshrine:before {
-    content: "";
-    position:absolute;
-    background: #bac0ff;
-    width:4vh;
-    height:4vh;
-    left:-1vh;
-    border-radius: 50%;
-    border:2px solid #000000
-}
-#navpavilion:before {
-    content: "";
-    position:absolute;
-    background: #f3edff;
-    width:4vh;
-    height:4vh;
-    left:-1vh;
-    border-radius: 50%;
-    border:2px solid #000000
-}
-#navhome:before {
-    content: "";
-    position:absolute;
-    background: #fffbb0;
+    background: #f2d8d5;
     width:4vh;
     height:4vh;
     left:-1vh;
@@ -88,17 +58,37 @@ li {
 #navspace:before {
     content: "";
     position:absolute;
-    background: aliceblue;
+    background: #eddbcc;
     width:4vh;
     height:4vh;
     left:-1vh;
     border-radius: 50%;
     border:2px solid #000000
 }
-#navmerchant:before {
+#navhome:before {
     content: "";
     position:absolute;
-    background: #d0c9ff;
+    background: #fffee3;
+    width:4vh;
+    height:4vh;
+    left:-1vh;
+    border-radius: 50%;
+    border:2px solid #000000
+}
+#navitsumade:before {
+    content: "";
+    position:absolute;
+    background: #e0edda;
+    width:4vh;
+    height:4vh;
+    left:-1vh;
+    border-radius: 50%;
+    border:2px solid #000000;
+}
+#navshrine:before {
+    content: "";
+    position:absolute;
+    background: #daebed;
     width:4vh;
     height:4vh;
     left:-1vh;
@@ -106,10 +96,31 @@ li {
     border:2px solid #000000
 }
 
+#navMayaComic:before {
+    content: "";
+    position:absolute;
+    background: #dadded;
+    width:4vh;
+    height:4vh;
+    left:-1vh;
+    border-radius: 50%;
+    border:2px solid #000000;
+}
+
+#navpavilion:before {
+    content: "";
+    position:absolute;
+    background: #dfdaeb;
+    width:4vh;
+    height:4vh;
+    left:-1vh;
+    border-radius: 50%;
+    border:2px solid #000000
+}
 
 
 .fullscreen {
-    background-color:#fffbb0;
+    background-color:#fffee3;
         height:100vh;
 }
 
