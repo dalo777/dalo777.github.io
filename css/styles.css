@@ -154,11 +154,11 @@ section {
 }
 
 #start .gallery {
-    align-self: flex-start;
+    align-self: flex-end;
     margin:5vh;
 }
 #start .cs {
-    align-self: flex-end;
+    align-self: flex-start;
     margin:5vh;
 }
 
